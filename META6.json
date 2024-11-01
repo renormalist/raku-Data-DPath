@@ -1,0 +1,25 @@
+{
+  "auth": "zef:renormalist",
+  "authors": [
+    "Steffen Schwigon"
+  ],
+  "build-depends": [
+  ],
+  "depends": [
+  ],
+  "description": "DPath is not XPath!",
+  "license": "Artistic-2.0",
+  "name": "Data::DPath",
+  "perl": "6.d",
+  "provides": {
+    "Data::DPath": "lib/Data/DPath.rakumod"
+  },
+  "resources": [
+  ],
+  "source-url": "https://github.com/renormalist/raku-Data-DPath.git",
+  "tags": [
+  ],
+  "test-depends": [
+  ],
+  "version": "0.0.1"
+}

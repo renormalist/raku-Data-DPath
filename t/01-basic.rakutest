@@ -1,0 +1,12 @@
+use Test;
+use Data::DPath;
+
+my $dpath = Data::DPath.new;
+
+# Test basics
+is(5 == 5, True, "simple expression");
+
+# Basics
+is($dpath.hello(), 42, "hello raku");
+
+done-testing;
