@@ -1,0 +1,8 @@
+use Test;
+use Data::DPath::Point;
+
+my $point = Data::DPath::Point.new();
+
+ok(defined($point), "instance created");
+
+done-testing;

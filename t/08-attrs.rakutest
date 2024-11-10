@@ -1,0 +1,8 @@
+use Test;
+use Data::DPath::Attrs;
+
+my $step = Data::DPath::Attrs.new();
+
+ok(defined($step), "instance created");
+
+done-testing;

@@ -1,5 +1,12 @@
 [![Actions Status](https://github.com/renormalist/raku-Data-DPath/actions/workflows/test.yml/badge.svg)](https://github.com/renormalist/raku-Data-DPath/actions)
 
+ABSTRACT
+========
+
+**WARNING/TODO: OLD DOCUMENTATION FROM ORIGINAL PERL MODULE.**
+
+DPath is not XPath!
+
 NAME
 ====
 
@@ -17,7 +24,7 @@ DESCRIPTION
 
 Data::DPath is a re-implementation of the Perl module *Data::DPath*.
 
-WATCH OUT: The early versions are ONLY to get the Raku/Zef/Github infrastructure working, there is no real code yet. If you read this sentence then this module is in its early stages of development and should not be used in any way except for contributing.
+**WATCH OUT:** The early versions are ONLY to get the Raku/Zef/Github infrastructure working and slowly fill it with basics. There is no real useful code yet. If you read this sentence then this module is in its early stages of development and should not be used in any way except for feedback or contributing.
 
 AUTHOR
 ======

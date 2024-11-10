@@ -12,7 +12,13 @@
   "name": "Data::DPath",
   "perl": "6.d",
   "provides": {
-    "Data::DPath": "lib/Data/DPath.rakumod"
+    "Data::DPath": "lib/Data/DPath.rakumod",
+    "Data::DPath::Attrs": "lib/Data/DPath/Attrs.rakumod",
+    "Data::DPath::Context": "lib/Data/DPath/Context.rakumod",
+    "Data::DPath::Filters": "lib/Data/DPath/Filters.rakumod",
+    "Data::DPath::Path": "lib/Data/DPath/Path.rakumod",
+    "Data::DPath::Point": "lib/Data/DPath/Point.rakumod",
+    "Data::DPath::Step": "lib/Data/DPath/Step.rakumod"
   },
   "resources": [
   ],

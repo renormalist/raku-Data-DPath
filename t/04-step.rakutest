@@ -1,0 +1,8 @@
+use Test;
+use Data::DPath::Step;
+
+my $step = Data::DPath::Step.new();
+
+ok(defined($step), "instance created");
+
+done-testing;

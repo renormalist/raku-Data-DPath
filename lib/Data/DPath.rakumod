@@ -6,6 +6,12 @@ method hello {
 
 =begin pod
 
+=head1 ABSTRACT
+
+B<WARNING/TODO: OLD DOCUMENTATION FROM ORIGINAL PERL MODULE.>
+
+DPath is not XPath!
+
 =head1 NAME
 
 Data::DPath - DPath is not XPath!
@@ -23,10 +29,11 @@ use Data::DPath;
 Data::DPath is a re-implementation of the Perl module
 I<Data::DPath>.
 
-WATCH OUT: The early versions are ONLY to get the Raku/Zef/Github
-infrastructure working, there is no real code yet. If you read this
-sentence then this module is in its early stages of development and
-should not be used in any way except for contributing.
+B<WATCH OUT:> The early versions are ONLY to get the Raku/Zef/Github
+infrastructure working and slowly fill it with basics. There is no
+real useful code yet. If you read this sentence then this module is in
+its early stages of development and should not be used in any way
+except for feedback or contributing.
 
 =head1 AUTHOR
 

@@ -1,0 +1,8 @@
+use Test;
+use Data::DPath::Filters;
+
+my $step = Data::DPath::Filters.new();
+
+ok(defined($step), "instance created");
+
+done-testing;
