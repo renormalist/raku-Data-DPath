@@ -1,0 +1,16 @@
+use Test;
+
+use Data::Dump::Tree;
+
+my   @lib-mods = 'lib/Data/DPath/'.IO.dir;
+push @lib-mods,  'lib/Data/DPath.rakumod'.IO;
+
+for @lib-mods -> $f {
+    my $todo = so $f.lines.grep:{ /OLD \s* DOCUMENTATION/ };
+    todo 'fix old docs' if $todo;
+    ok(False, "check documentation in $f") if $todo;
+}
+
+ok(True, "doc check done");
+
+done-testing;
